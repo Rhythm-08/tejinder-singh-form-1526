@@ -110,14 +110,14 @@ function handle(ev){
        // Clear text-fields
     // End your conditional here.
 
- if(fErrors.length > 0){
-      console.log(fErrors);
+ if(fErrors.length){
+      console.log("Errors" ,fErrors);
+      
     }else{
-      console.log(fData);
-      name.value = "";
-      email.value = "";
-      message.value = "";
-    }
+      console.log("Collected data" ,fData);
+      
+}
+
 
 
 // Close your function here
